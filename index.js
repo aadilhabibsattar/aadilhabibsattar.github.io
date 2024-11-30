@@ -1,3 +1,5 @@
+/* -- Glow effect -- */
+
 const blob = document.getElementById("blob");
 
 window.onpointermove = event => { 
@@ -9,7 +11,7 @@ window.onpointermove = event => {
   }, { duration: 3000, fill: "forwards" });
 }
 
-// Text effect
+/* -- Text effect -- */
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -36,6 +38,6 @@ document.querySelector("h1").onmouseover = event => {
       clearInterval(interval);
     }
     
-    iteration += 1 / 10;
+    iteration += 1 / 3;
   }, 30);
 }

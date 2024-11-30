@@ -21,16 +21,16 @@ body {
 
 #blob {
   background-color: white;
-  height: 18vmax;
+  height: 20vmax;
   aspect-ratio: 1;
   position: absolute;
   left: 50%;
   top: 50%;
   translate: -50% -50%;
   border-radius: 50%;
-  background: linear-gradient(to right, lightblue, rgb(0, 153, 255));
+  background: linear-gradient(to right, lightblue, rgb(0, 140, 255));
   animation: rotate 20s infinite;
-  opacity: 1.0;
+  opacity: 0.8;
 }
 
 #blur {
@@ -41,10 +41,9 @@ body {
   backdrop-filter: blur(12vmax);
 }
 
-
-.name {
+h1 {
   font-family: 'Space Mono', monospace;
-  font-size: clamp(3rem, 7vw, 10rem);
+  font-size: 7vw;
   color: white;
   white-space: nowrap;
   padding: 0rem clamp(1rem, 2vw, 3rem);
@@ -57,28 +56,15 @@ body {
   z-index: 3;
 }
 
-.hello {
-  font-family: 'Space Mono', monospace;
-  color: white;
-  font-size: 1.5rem;
+/* -- Links -- */
+
+#links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   position: absolute;
-  z-index: 100;
-  font-weight: bold;
-  margin: 0;
-  left: 50%;
-  top: 40%;
-  translate: -50% -50%;
-}
-
-.ul {
-  text-decoration: none;
-  color: white;
-  z-index: 3;
-  margin-top: 10px;
-}
-
-.li {
-  margin: 0;
-  z-index: 3;
-  color: white;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  padding: 1rem;
 }
