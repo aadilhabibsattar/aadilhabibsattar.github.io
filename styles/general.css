@@ -2,54 +2,18 @@
 
 body {
   background-color: black;
-  height: 100vh;
+  min-height: 100%;
   margin: 0rem;
   overflow: hidden; 
   color: white;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Poppins', monospace;
   font-size: 1.2rem;
-}
-
-@keyframes rotate {
-  from {
-    rotate: 0deg;
-  }
-  
-  50% {
-    scale: 1 1.5;
-  }
-  
-  to {
-    rotate: 360deg;
-  }
-}
-
-#blob {
-  background-color: white;
-  height: 20vmax;
-  aspect-ratio: 1;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  translate: -50% -50%;
-  border-radius: 50%;
-  background: linear-gradient(to right, lightblue, rgb(0, 140, 255));
-  animation: rotate 20s infinite;
-  opacity: 0.8;
-}
-
-#blur {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 0;
-  backdrop-filter: blur(12vmax);
 }
 
 .hello {
   font-size: 4vh;
   color: white;
-  margin: 0rem;
+  margin: 0rem; 
   position: absolute;
   left: 50%;
   top: 40%;
@@ -67,6 +31,7 @@ h1 {
   left: 50%;
   top: 50%;
   translate: -50% -50%;
+  font-family: 'Space Mono', monospace;
   /* z-index: 3; */
 }
 
@@ -82,7 +47,6 @@ h1 {
 }
 
 .links {
-  font-family: "Poppins", sans-serif;
   color: white;
   text-decoration: none;
 }
@@ -93,6 +57,49 @@ h1 {
 }
 
 .section2 {
-  z-index: 2;
-    height: 100vh;
+  height: 200px;
+  position: static;
+  
 }
+
+/* 
+body {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center;
+  background-color: black;
+  margin: 0;
+  overflow: auto;
+  overflow-x: hidden;
+  min-height: 100vh;
+  font-family: monospace;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+  z-index: 1;
+  position: relative; 
+  top: 50vh;
+  translate: 0%, -50%;
+}
+
+section {
+  width: 100vw;
+  color: white;
+  height: 50vh;
+  background-color: 100px;
+  z-index: 1;
+  text-align: center;
+  margin-top: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem
+} 
+*/

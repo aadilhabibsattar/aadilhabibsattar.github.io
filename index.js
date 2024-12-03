@@ -1,18 +1,25 @@
-/* -- Glow effect -- */
+// import { blobMovement } from "./blob";
+// import { textAnimate } from "./text";
 
+// blobMovement();
+// textAnimate();
+
+// Blob animation
 const blob = document.getElementById("blob");
 
-window.onpointermove = event => { 
-  const { clientX, clientY } = event;
-  
-  blob.animate({
-    left: `${clientX}px`,
-    top: `${clientY}px`
-  }, { duration: 3000, fill: "forwards" });
+export function blobMovement() {
+  window.onpointermove = event => { 
+    const { clientX, clientY } = event;
+    
+    blob.animate({
+      left: `${clientX}px`,
+      top: `${clientY}px`
+    }, { duration: 3000, fill: "forwards" });
+  }
 }
 
-/* -- Text effect -- */
 
+// Text anmation
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
@@ -41,3 +48,4 @@ document.querySelector("h1").onmouseover = event => {
     iteration += 1 / 3;
   }, 30);
 }
+
