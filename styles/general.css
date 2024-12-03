@@ -1,36 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-/* .navbar {
-  z-index: 2;
-  position: absolute;
-  width: 90vw;
-  top: 5vh;
-  left: 5vw;
-
-  display: flex;
-  justify-content: space-between;
-}
-
-.links {
-  color: white;
-  text-decoration: none;
-}
-
-.right-links {
-  display: flex;
-  gap: 3vw;
-}
-
-.section2 {
-  height: 200px;
-  position: static;
-  
-} */
-
 * {
   padding: 0;
   margin: 0;
+
+  scroll-behavior: smooth;
+  color: white;
 }
 
 body {
@@ -52,42 +27,64 @@ body {
   gap: 0;
   justify-content: center;
   align-items: center;
+  z-index: 1;
   position: relative;
+  height: 100vh;
 }
 
 .hello {
   font-size: 4vh;
-  color: white;
-  margin: 0rem; 
-  position: relative; 
-  /* top: 50vh;
-  translate: 0%, -50%; */
   font-family: 'Poppins', monospace;
 }
 
 h1 {
-  color: white;
   text-align: center;
   font-size: 4rem;
-  margin: 0;
-  z-index: 1;
-  position: relative; 
-  /* top: 50vh;
-  translate: 0%, -50%; */
 }
 
 
 section {
-  width: 100vw;
-  color: white;
-  height: 50vh;
-  background-color: 100px;
   z-index: 1;
   text-align: center;
-  margin-top: 100vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem
+  font-size: 1rem;
+
+  position: relative;
+  height: 100vh;
+  width: 100vw;
 } 
+
+.divider {
+  width: 10vw;
+  height: 3px;             
+  background-color: #ccc;  
+  margin: 20px 0;   
+  z-index: 1;      
+  border-radius: 5px;
+}
+
+.project-section {
+  display: flex;
+  gap: 5vw;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+  width: 35vh;
+}
+
+.project-image {
+  height: 35vh;
+  width: 35vh;
+
+  border: 2px grey fill;
+  background-color: white;
+  border-radius: 1rem;
+}
+

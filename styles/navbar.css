@@ -1,0 +1,29 @@
+.navbar-elements {
+  z-index: 1;
+  position: absolute;
+  width: 90vw;
+  top: 5vh;
+  left: 5vw;
+
+  display: flex;
+  justify-content: space-between;
+  
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.right-links {
+  display: flex;
+  gap: 3vw;
+}
+
+.section2 {
+  height: 200px;
+  position: static;
+  
+}

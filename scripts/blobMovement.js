@@ -7,6 +7,6 @@ export function blobMovement() {
     blob.animate({
       left: `${clientX}px`,
       top: `${clientY}px`
-    }, { duration: 3000, fill: "forwards" });
+    }, { duration: 2500, fill: "forwards" });
   }
 }
