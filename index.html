@@ -4,28 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/blob.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/scrollbar.css">
   <title>Document</title>
 </head>
 <body>
   <div id="blob"></div>
   <div id="blur"></div>
+  
   <nav class="navbar">
-    <a class="links" href="./index.html">LOGO</a>
-    <div class="right-links">
-      <a class="links" href="">Projects</a>
-      <a class="links" href="">Contact</a>
-    </div>
+    <ul class="navbar-elements">
+      <li><a class="links" href="./index.html">Aadil Habib Sattar</a></li>
+      <div class="right-links">
+      <li><a class="links" href="#about-me">About Me</a></li>
+      <li><a class="links" href="#projects">Projects</a></li>
+      <li><a class="links" href="#contact">Contact</a></li>
+      </div>
+    </ul>
   </nav>
+  
+  <div class="intro">
+    <p class="hello">HELLO I'M</p>
+    <h1 class="main-intro-text" data-value="AADIL">AADIL</h1>
+  </div>
 
-  <p class="hello">HELLO I'M</p>
-  <h1 data-value="AADIL">AADIL</h1>
+  <div class="divider"></div>
 
-  <main>
-    <div class="section2">
-      This is a second section
+  <section id="about-me">
+      About me
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="project-section" id="projects">
+    <div class="project">
+      <div class="project-image"></div>
+      <p class="project-description">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui vitae libero facere
+      </p>
     </div>
-  </main>
+    <div class="project">
+      <div class="project-image"></div>
+      <p class="project-description">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui vitae libero facere
+      </p>
+    </div>
+    <div class="project">
+      <div class="project-image"></div>
+      <p class="project-description">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui vitae libero facere
+      </p>
+    </div>
+    <div class="project">
+      <div class="project-image"></div>
+      <p class="project-description">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui vitae libero facere
+      </p>
+    </div>
+  </section>
 
-  <script src="index.js"></script>
+  <div class="divider"></div>
+
+  <footer>
+    <section id="contact">Contact</section>
+  </footer>
+
+  <script type="module" src="scripts/index.js"></script>
 </body>
 </html>
