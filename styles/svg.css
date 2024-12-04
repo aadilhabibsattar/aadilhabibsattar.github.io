@@ -1,0 +1,52 @@
+svg {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.svg-container {
+  width: 6rem;
+  height: 6rem;
+  border: 2px solid rgba(128,128,128,0.3);
+  opacity: 0.6;
+  border-radius: 10%;
+  box-shadow: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(41, 41, 41);
+  gap: 2rem;
+
+  transition: transform 0.15s ease-in-out, opacity 0.15s ease-in-out, 
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.svg-container:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  border-color: rgba(128,128,128,0.6);
+  box-shadow: 0rem 0rem 0.5rem rgb(66, 66, 66);
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.skills-header {
+  margin-bottom: 4rem;
+  font-size: 3rem;
+}
+
+.technologies {
+  margin-top: 2rem;
+  
+  display: flex;
+  gap: 2rem;
+}

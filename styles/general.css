@@ -21,6 +21,10 @@ body {
   font-family: 'Poppins', monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -87,4 +91,3 @@ section {
   background-color: white;
   border-radius: 1rem;
 }
-
