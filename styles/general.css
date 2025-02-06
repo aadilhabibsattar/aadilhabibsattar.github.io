@@ -70,24 +70,7 @@ section {
   border-radius: 5px;
 }
 
-.project-section {
-  display: flex;
-  gap: 5vw;
-}
-
-.project {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3vh;
-  width: 35vh;
-}
-
-.project-image {
-  height: 35vh;
-  width: 35vh;
-
-  border: 2px grey fill;
-  background-color: white;
-  border-radius: 1rem;
+.header {
+  margin-bottom: 4rem;
+  font-size: 3rem;
 }

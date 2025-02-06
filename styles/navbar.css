@@ -16,6 +16,13 @@
 
 .links {
   text-decoration: none;
+  transition: all 0.25s;
+  display: inline-block;
+}
+
+.links:hover {
+  color: #13beca;
+  transform: scale(1.1);
 }
 
 .left-links,
@@ -33,7 +40,7 @@
   display: flex;
   justify-content: center;
   flex: 1;
-  gap: 3vw;
+  gap: 4vw;
 }
 
 .right-links {

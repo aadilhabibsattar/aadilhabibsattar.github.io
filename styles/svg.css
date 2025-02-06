@@ -1,6 +1,6 @@
 svg {
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .svg-container {
@@ -39,14 +39,8 @@ svg {
   gap: 1.5rem;
 }
 
-.skills-header {
-  margin-bottom: 4rem;
-  font-size: 3rem;
-}
-
-.technologies {
-  margin-top: 2rem;
-  
+.tools {
   display: flex;
+  margin-top: 2rem;
   gap: 2rem;
 }

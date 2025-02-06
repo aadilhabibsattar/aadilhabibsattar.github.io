@@ -6,12 +6,13 @@
 .contact-section {
   display: flex;
   flex-direction: column;
+  gap: 5vh;
 }
 
 .contact-links {
   margin-bottom: 6rem;
   display: flex;
-  gap: 5rem;
+  gap: 8vw;
 }
 
 .contact-link {
@@ -25,7 +26,7 @@
   height: 3rem;
 
   opacity: 0.7;
-  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition: opacity 0.2s, transform 0.2s;
 }
 
 .contact-link-svg:hover {
