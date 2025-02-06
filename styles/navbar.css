@@ -1,29 +1,49 @@
 .navbar-elements {
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   width: 90vw;
   top: 5vh;
   left: 5vw;
+  right: 5vw;
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
   
   text-decoration: none;
   list-style-type: none;
 }
 
 .links {
-  color: white;
   text-decoration: none;
+  transition: all 0.25s;
+  display: inline-block;
+}
+
+.links:hover {
+  color: #13beca;
+  transform: scale(1.1);
+}
+
+.left-links,
+.middle-links,
+.right-links {
+  display: flex;
+  align-items: center;
+}
+
+.left-links {
+  flex: 1;
+}
+
+.middle-links {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap: 4vw;
 }
 
 .right-links {
-  display: flex;
-  gap: 3vw;
-}
-
-.section2 {
-  height: 200px;
-  position: static;
-  
+  flex: 1;
+  justify-content: flex-end;
 }
